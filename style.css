@@ -1,0 +1,45 @@
+body{
+    background-image:url("https://images.unsplash.com/photo-1606636660488-16a8646f012c?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+}
+div{
+    background-color:lightblue;
+    border-radius: 5px;
+    width: 40%;
+    margin-left: 20%;
+    font-weight: bold;
+    padding-top: 80px;
+    padding-left: 80px;
+    padding-right: 80px;
+    
+}
+input[type=text], input[type=email], input[type=password], select{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 8px;
+    border:  2px solid orange;
+
+}
+button{
+    background-color: rgb(219, 180, 5);
+    color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: large;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+label{
+    font-size: large;
+    display: block;
+    float: left;
+}
+input[type=radio],input[type=checkbox]{
+    margin: 8px;
+}
